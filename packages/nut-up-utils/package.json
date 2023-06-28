@@ -1,0 +1,42 @@
+{
+    "name": "nut-up-utils",
+    "version": "0.0.1",
+    "description": "The utils for nut-up",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "chalk.js",
+        "checkMissDependencies.js",
+        "createEnvironmentHash.js",
+        "evalSourceMapMiddleware.js",
+        "ForkTsCheckerWebpackPlugin.js",
+        "getHttpsConfig.js",
+        "ImageMinimizerPlugin.js",
+        "inquirer.js",
+        "ora.js",
+        "printBuildError.js",
+        "refreshOverlayInterop.js",
+        "typescriptFormatter.js",
+        "WebpackDevServerUtils.js",
+        "webpackHotDevClient.js"
+    ],
+    "author": "cz",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/code-frame": "^7.14.5",
+        "address": "^1.2.2",
+        "chalk": "^4.1.2",
+        "check-dependencies": "^1.1.0",
+        "detect-port-alt": "^1.1.6",
+        "cross-spawn": "^7.0.3",
+        "fork-ts-checker-webpack-plugin": "^6.5.3",
+        "image-minimizer-webpack-plugin": "^3.8.2",
+        "inquirer": "8.1.2",
+        "ora": "^5.4.1",
+        "react-dev-utils": "^12.0.1",
+        "react-error-overlay": "6.0.9",
+        "strip-ansi": "^6.0.1"
+    }
+}
