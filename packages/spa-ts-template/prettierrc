@@ -1,0 +1,20 @@
+{
+    "printWidth": 120,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "bracketSameLine": true,
+    "semi": true,
+    "arrowParens": "avoid",
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": [
+                "*.json",
+                "*.yml"
+            ],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

@@ -339,6 +339,8 @@ function run(appPath, onSuccess) {
         'editorconfig',
         'babelrc',
         'eslintrc',
+        'prettierrc',
+        'commitlintrc',
         'gitignore',
         'npmignore'
     ];
